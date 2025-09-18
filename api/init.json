@@ -1,0 +1,168 @@
+{
+  "homeInfo": {
+    "title": "首页",
+    "href": "page/home.html"
+  },
+  "logoInfo": {
+    "title": "JYJ",
+    "image": "images/H.png",
+    "href": ""
+  },
+  "menuInfo": [
+    {
+      "title": "常规管理",
+      "icon": "fa fa-address-book",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "首页",
+          "href": "page/home.html",
+          "icon": "fa fa-home",
+          "target": "_self"
+        },
+        {
+          "title": "用户中心",
+          "href": "",
+          "icon": "fa fa-group",
+          "target": "_self",
+          "child": [
+          {
+            "title": "账号管理",
+            "href":"one.html",
+            "icon": "fa fa-plus-square-o",
+            "target": "_self"
+          }, {
+            "title": "地址管理",
+            "href": "two.html",
+            "icon": "fa fa-search",
+            "target": "_self"
+          }
+        ]
+        },
+        {
+          "title": "拍卖查询",
+          "href": "",
+          "icon": "fa fa-institution",
+          "target": "_self",
+          "child": [
+            {
+              "title": "筛选搜索",
+              "href": "three.html",
+              "icon": "fa fa-plus-square-o",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "商品拍卖",
+          "href": "",
+          "icon": "fa fa-male",
+          "target": "_self",
+          "child": [
+            {
+              "title": "商品信息展示",
+              "href": "four.html",
+              "icon": "fa fa-plus-circle",
+              "target": "_self"
+            }, {
+              "title": "拍卖详情功能",
+              "href": "five.html",
+              "icon": "fa fa-search-plus",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "个人出价记录",
+          "href": "",
+          "icon": "fa fa-trophy",
+          "target": "_self",
+          "child": [
+            {
+              "title": "状态显示区",
+              "href": "six.html",
+              "icon": "fa fa-plus-square-o",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "订单与支付",
+          "href": "",
+          "icon": "fa fa-paw",
+          "target": "_self",
+          "child": [
+            {
+              "title": "订单生产",
+              "href": "seven.html",
+              "icon": "fa fa-plus-circle",
+              "target": "_self"
+            }, {
+              "title": "支付操作",
+              "href": "nine.html",
+              "icon": "fa fa-search-plus",
+              "target": "_self"
+            }, {
+              "title": "订单管理",
+              "href": "ten.html",
+              "icon": "fa fa-bar-chart",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "拍卖管理",
+          "href": "",
+          "icon": "fa fa-eye",
+          "target": "_self",
+          "child": [
+            {
+              "title": "创建拍卖会/拍品",
+              "href": "eleven.html",
+              "icon": "fa fa-plus-square-o",
+              "target": "_self"
+            }, {
+              "title": "管理拍品",
+              "href": "manage.html",
+              "icon": "fa fa-search",
+              "target": "_self"
+            }
+          ]
+        },
+		{
+		  "title": "系统公告与帮助",
+		  "href": "",
+		  "icon": "fa fa-institution",
+		  "target": "_self",
+		  "child": [
+		    {
+		      "title": "管理员操作",
+		      "href": "page/department/addDept.html",
+		      "icon": "fa fa-plus-square-o",
+		      "target": "_self",
+			  "child": [
+			    {
+			      "title": "发布公告",
+			      "href": "grand.html",
+			      "icon": "fa fa-plus-square-o",
+			      "target": "_self"
+			    }, {
+			      "title": "编辑公告",
+			      "href": "gggg.html",
+			      "icon": "fa fa-search",
+			      "target": "_self"
+			    }
+			  ]
+		    }, {
+		      "title": "用户操作",
+		      "href": "gggggg.html",
+		      "icon": "fa fa-plus-circle",
+		      "target": "_self"
+		    }
+		  ]
+		}
+      ]
+    }
+  ]
+}
